@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript - Documentação Básica</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header><h3>Tópicos</h3></header>
+        
+        <ul>
+            <li>
+                <a href="#Introduction" class="nav-link">
+                    Introduction
+                </a>
+            </li>
+            <li>
+                <a href="#What_is_JavaScript?" class="nav-link">
+                    What is JavaScript?
+                </a>
+            </li>
+            <li>
+                <a href="#Hello_World" class="nav-link">
+                    Hello World
+                </a>
+            </li>
+            <li>
+                <a href="#Variables" class="nav-link">
+                    Variables
+                </a>
+            </li>
+            <li>
+                <a href="#Data_Types" class="nav-link">Data Types</a>
+            </li>
+            <li>
+                <a href="#Comments" class="nav-link">
+                    Comments
+                </a>
+            </li>
+            <li>
+                <a href="#Operators" class="nav-link">
+                    Operators
+                </a>
+            </li>
+            <li>
+                <a href="#Reference" class="nav-link">
+                    Reference
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <article>
+                <p>JavaScript é a linguagem de programação usada para adicionar interatividade ao seu site (por exemplo: jogos, respostas quando botões são pressionados ou dados são inseridos em formulários, estilo dinâmico, animações). Esse artigo ajuda você a começar com essa linguagem interessante e dá uma idéia do que é possível.</p>
+            </article>
+        </section>
+
+        <section id="What_is_JavaScript?" class="main-section">
+            <header>What is JavaScript?</header>
+            <article>
+                <p>
+                    JavaScript (abreviado como "JS") é uma linguagem de programação dinâmica cheia de recursos que quando aplicada em um documento HTML, pode fornecer interatividade dinâmica em sites. Foi inventada por Brendan Eich, co-fundador do projeto Mozilla, da Fundação Mozilla e da Corporação Mozilla.
+                </p>
+    
+                <p>
+                    JavaScript é incrivelmente versátil e amigável ao iniciante. Com mais experiência, você poderá criar jogos, gráficos 2D e 3D animados, aplicativos abrangentes baseados em bancos de dados e muito mais!
+                </p>
+    
+                <p>
+                    JavaScript em si é bastante compacto, mas muito flexível. Os desenvolvedores escreveram uma grande variedade de ferramentas sobre a linguagem JavaScript principal, desbloqueando uma grande quantidade de funcionalidades extras com o mínimo de esforço. Essas incluem:
+                </p>
+    
+                <ul>
+                    <li>
+                        Interfaces de programação de aplicativos no navegador (APIs) - APIs integradas em navegadores da Web, fornecendo funcionalidade como criar dinamicamente HTML e definir estilos CSS, coletar e manipular um fluxo de vídeo da webcam do usuário ou gerando gráficos 3D e amostras de áudio.
+                    </li>
+    
+                    <li>
+                        APIs de terceiros  — Permitem que os desenvolvedores incorporem funcionalidades em seus sites de outros provedores de conteúdo, como o Twitter ou o Facebook.
+                    </li>
+                    <li>
+                        Estruturas e bibliotecas de terceiros — você pode aplicá-las ao seu HTML para permitir que você crie rapidamente sites e aplicativos.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="Hello_World" class="main-section">
+            <header>Hello World</header>
+            <article>
+                <p>
+                    Os programas JavaScript podem ser inseridos em quase qualquer lugar em um documento HTML usando a <strong>script</strong> tag. <br> Por exemplo:
+                </p>
+                <code>
+                    <img src="/assets/images/helloworld.png" alt="Hello World em JS">
+                </code>
+            </article>
+        </section>
+
+        <section id="Variables" class="main-section">
+            <header>Variables</header>
+            <article>
+                <p>
+                    Variáveis são espaços na memória do computador onde você pode armazenar dados. Você começa declarando uma variável com a palavra-chave <strong>var</strong> (menos recomendado, se aprofunde mais para uma explicação) ou a palavra chave <strong>let</strong>, seguida por qualquer nome que você queira chamá-la:
+                </p>
+
+                <code>
+                    <img src="/assets/images/variables.png" alt="Variáveis">
+                </code>
+            </article>
+        </section>
+
+        <section id="Data_Types" class="main-section">
+            <header>Data Types</header>
+            <article>
+                <p>
+                    JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente
+                </p>
+                
+                <p>A última versão ECMAScript define sete tipos de dados são primitivos:</p>
+                <ul>
+                    <li>String</li>
+                    <li>Number</li>
+                    <li>Boolean</li>
+                    <li>Symbol</li>
+                    <li>BigInt</li>
+                    <li>Null</li>
+                    <li>Undefined</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="Comments" class="main-section">
+            <header>Comments</header>
+            <article>
+                <p>
+                    Os comentários são, essencialmente, pequenos trechos de texto que podem ser adicionados entre os códigos e são ignorados pelo navegador. Você pode colocar comentários no código JavaScript, assim como em CSS:
+                </p>
+    
+                <code>
+                    <img src="/assets/images/comment1.png" alt="Exemplo de comentário">
+                </code>
+    
+                <p>
+                    Se o seu comentário não tiver quebras de linha, é mais fácil colocá-lo depois de duas barras como esta:
+                </p>
+    
+                <code>
+                    <img src="/assets/images/comment2.png" alt="Exemplo de comentário">
+                </code>
+            </article>
+        </section>
+
+        <section id="Operators" class="main-section">
+            <header>Operators</header>
+            <article>
+                <p>
+                    Um <strong>operador</strong> é um símbolo matemático que produz um resultado baseado em dois valores (ou variáveis). Na tabela a seguir, você pode ver alguns dos operadores mais simples, além de alguns exemplos para experimentar no console JavaScript.
+                </p>
+    
+                <code>
+                    <img src="/assets/images/operators.png" alt="">
+                </code>
+            </article>
+        </section>
+
+        <section id="Reference" class="main-section">
+            <header>Reference</header>
+
+            <article>
+                <ul>
+                    <li>Toda a documentação nesta página é retirada do <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">MDN</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
